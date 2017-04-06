@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg_main">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.quiz.MainActivity">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/chemistry"
+                style="@style/CustomizableButton"
+                android:text="@string/chemistry" />
+
+            <Button
+                android:id="@+id/biology"
+                style="@style/CustomizableButton"
+                android:text="@string/biology" />
+
+            <Button
+                android:id="@+id/cs"
+                style="@style/CustomizableButton"
+                android:text="@string/cs" />
+
+            <Button
+                android:id="@+id/history"
+                style="@style/CustomizableButton"
+                android:text="@string/history" />
+
+            <Button
+                android:id="@+id/feedback"
+                style="@style/CustomizableButton"
+                android:text="@string/feedback" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/score"
+            style="@style/CustomizableButton"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/linear_layout"
+            android:layout_centerHorizontal="true"
+            android:onClick="updateScore"
+            android:text="@string/score"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/startbutton"
+            style="@style/CustomizableButton"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/score"
+            android:layout_centerHorizontal="true"
+            android:onClick="reset"
+            android:text="@string/start"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</ScrollView>

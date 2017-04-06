@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="geography">Geography</string>
+    <string name="history">History</string>
+    <string name="feedback">Feedback</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="physics">Physics</string>
+    <string name="biology">Biology</string>
+    <string name="cs">Computer Science</string>
+    <string name="economics">Economics</string>
+    <string name="start"> Start new game </string>
+    <string name="score">Score</string>
+    <string name="submit">Submit</string>
+    <string name="feedbacklabel">Enter your feedback</string>
+
+    <string name="bioq">Ordinary table salt is sodium chloride. What is baking soda?</string>
+    <string name="biooption1">A. Potassium chloride</string>
+    <string name="biooption2">B. Potassium carbonate</string>
+    <string name="biopption3">C. Sodium bicarbonate</string>
+
+    <string name="chemq1">The nucleus of an atom consists of</string>
+    <string name="chemq1o1">A. electrons and neutrons</string>
+    <string name="chemq1o2">B. electrons and protons</string>
+    <string name="chemq1o3">C. protons and neutrons</string>
+    <string name="chemq1o4">D. All of the above</string>
+
+    <string name="chemq2">The number of moles of solute present in 1 kg of a solvent is called its</string>
+    <string name="chemq2o1">A. molality</string>
+    <string name="chemq2o2">B. molarity</string>
+    <string name="chemq2o3">C. normality</string>
+    <string name="chemq2o4">D. formality</string>
+
+    <string name="csq1">Which one of these lists contains only Java programming language keywords?</string>
+    <string name="csq1o1">A. class, if, void, long, Int, continue</string>
+    <string name="csq1o2">B. goto, instanceof, native, finally, default, throws</string>
+    <string name="csq1o3">C. try, virtual, throw, final, volatile, transient</string>
+    <string name="csq1o4">D. strictfp, constant, super, implements, do</string>
+
+    <string name="csq2">Which is a reserved word in the Java programming language?</string>
+    <string name="csq2o1">A. method</string>
+    <string name="csq2o2">B. subclasses</string>
+    <string name="csq2o3">C. native</string>
+    <string name="csq2o4">D. array</string>
+
+    <string name="hisq">World War I began in which year?</string>
+    <string name="hisoption1">A. 1914</string>
+    <string name="hisoption2">B. 1923</string>
+    <string name="hisoption3">C. 1917e</string>
+
+</resources>
+

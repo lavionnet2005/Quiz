@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg_all">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question1"
+            style="@style/CustomizableTextView"
+            android:text="@string/hisq" />
+
+        <CheckBox
+            android:id="@+id/optionA"
+            style="@style/CustomizableCheckbox"
+            android:text="@string/hisoption1" />
+
+        <CheckBox
+            android:id="@+id/optionB"
+            style="@style/CustomizableCheckbox"
+            android:text="@string/hisoption2" />
+
+        <CheckBox
+            android:id="@+id/optionC"
+            style="@style/CustomizableCheckbox"
+            android:text="@string/hisoption3" />
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/CustomizableButton"
+            android:text="@string/submit" />
+
+
+    </LinearLayout>
+</ScrollView>
